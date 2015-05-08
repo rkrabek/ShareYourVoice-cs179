@@ -34,6 +34,7 @@ function getName(){
   return name;
 };
 
+// code from http://stackoverflow.com/questions/22087076/how-to-make-a-simple-image-upload-using-javascript-html
 function getImage(){
    var preview = document.getElementById('pic'); //selects the query named img
     var file    = document.querySelector('input[type=file]').files[0]; //sames as here
